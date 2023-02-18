@@ -78,11 +78,11 @@ public class EjercicioU3PaP3ScApplication implements CommandLineRunner{
 		
 		ItemDTO producto2 = new ItemDTO();
 		producto2.setCantidad(30);
-		producto2.setCodigoBarras("123");
+		producto2.setCodigoBarras("345");
 		
 		ItemDTO producto3 = new ItemDTO();
 		producto3.setCantidad(30);
-		producto3.setCodigoBarras("123");
+		producto3.setCodigoBarras("234");
 		
 		List<ItemDTO> productos = new ArrayList<>();
 		productos.add(producto);
